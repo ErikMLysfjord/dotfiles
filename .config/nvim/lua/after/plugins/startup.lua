@@ -7,17 +7,19 @@ return {
 		config = function()
 			vim.g["startify_lists"] = { { type = "bookmarks", header = { "Bookmarks" } } }
 			vim.g["startify_bookmarks"] = {
+				{ u = "~/utveksling" },
 				{ c = "~/capra" },
 				{ f = "~/fritidsprog" },
 				{ s = "~/skoleprog" },
-				{ w = "~/capra/propely-web-app" },
+				{ p = "~/capra/propely-web-app" },
 				{ a = "~/capra/propely-api" },
 				{ m = "~/fritidsprog/my-page" },
 				{ r = "~/fritidsprog/todo-cli" },
-				{ p = "~/.config/nvim/lua/after/plugins" },
+				{ n = "~/.config/nvim/lua/after/plugins" },
 				{ z = "~/.zshrc" },
 				{ g = "~/.gitconfig" },
 				{ t = "~/.tmux.conf" },
+				{ w = "~/.config/wezterm" },
 			}
 		end,
 	},
